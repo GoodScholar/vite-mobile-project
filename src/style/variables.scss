@@ -1,0 +1,37 @@
+// 鼠标选中颜色
+$hoverColor: #5474ed;
+
+%flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+%flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%flex-center-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+%flex-content-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%flex-content-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+%flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
